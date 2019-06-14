@@ -30,7 +30,7 @@ class App extends React.Component {
    				
     				:
 
-       			<Dropdown.Item eventKey={`item${i}`} style={{width:'505px'}}>{option.item}</Dropdown.Item>
+       			<Dropdown.Item key={`item${i}`} style={{width:'505px'}}>{option.item}</Dropdown.Item>
 
        			}
        			<Dropdown.Divider /> 
